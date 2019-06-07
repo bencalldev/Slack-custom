@@ -128,7 +128,7 @@ ts-jumper input[type="text"],
 }
 
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
-    background-color: var(--background-hover);
+    background-color: #181818; /* old : var(--background-hover) */
 }
 .c-message--light .c-message__sender .c-message__sender_link {
     color: var(--text);
@@ -211,7 +211,7 @@ ts-jumper input[type="text"],
 
 .p-channel_sidebar__channel:hover,
 .p-channel_sidebar__link:hover{
-   background-color: var(--background-hover) !important;
+   background-color: #000 !important; /* old : var(--background-hover) !important */
    border-color: transparent;
    color: var(--text) !important;
    height: 24px !important;
@@ -1118,6 +1118,12 @@ select {
    background: transparent;
    border: 1px solid var(border-bright);
 }
+
+.p-prefs_modal__radiogroup label.p-prefs_modal__radiogroup--selected {
+    background: #333;
+    border-color: #1d9bd1;
+}
+
 .notification_example.mac {
   color: #555459; /* default color - leave unthemed */
 }
@@ -1280,7 +1286,7 @@ ts-jumper ts-jumper-container {
 	color: var(--text);
 }
 
-.c-sidebar_menu__list_item {
+.c-sidebar_menu__list_item { /* Added rules to change text colors of preference's sidebar */
     color: #CCC !important;
 }
 
