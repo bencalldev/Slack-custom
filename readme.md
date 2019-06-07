@@ -2,6 +2,8 @@
 
 A darker, more contrasty, Slack theme.
 
+Not from me, all credits to [mallowigi](https://github.com/mallowigi) and [widget-](https://github.com/widget-)
+
 Original github : https://mallowigi.github.io/slack-one-dark-theme/
 
 # Preview
@@ -124,6 +126,12 @@ C:\Windows\System32\cmd.exe /c " SET SLACK_DEVELOPER_MENU=TRUE && start C:\exist
 (*Don't forget to change the exe slack url by yours* : `C:\Users\ExampleUser\AppDate\Local\slack\slack.exe`)
 
 Start Slack with this new shortcut and to open developer console : press `Ctrl` + `Alt` + `I`
+
+# Acknowledgements
+
+Orignal work from :
+* [mallowigi](https://github.com/mallowigi) - Github : https://mallowigi.github.io/slack-one-dark-theme/
+* [widget-](https://github.com/widget-) - Github : https://github.com/widget-/slack-black-theme
 
 # License
 
