@@ -1497,6 +1497,7 @@ nav {
 /* unread message divider badge */
 .c-message_list__unread_divider__label {
     background: var(--background-elevated);
+    border-bottom: 2px solid var(--background-elevated) !important; /* Added for better visibility of unread messages */
 }
 
 .c-message_list__unread_divider__separator {
