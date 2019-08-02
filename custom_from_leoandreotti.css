@@ -101,9 +101,9 @@ div.c-message:hover {
     color: white !important;
 }
 
-a {
+/* a {
     color: #36D4F6 !important;
-}
+} */
 
 .comment .app_preview_link_slug,
 .comment .internal_member_link,
@@ -498,9 +498,9 @@ p-search_filter__date:first-child {
 }
 
 .c-message--light .c-message__sender .c-message__sender_link {
-    color: #a4d677 !important;
+    color: #FFF !important;
     font-weight: 700 !important;
-    font-size: 14px !important;
+    font-size: 14.6px !important;
 }
 
 .light_theme ts-message .message_content .message_sender {
@@ -1130,7 +1130,8 @@ input[type=search]:focus {
 }
 
 .c-timestamp__label {
-    color: #ffb088 !important;
+    color: #31dad2 !important;
+    /* color: #ffb088 !important; */
 }
 
 .c-message__sender {
@@ -2593,7 +2594,7 @@ c-keyboard_key {
 }
 
 .c-presence--active {
-    color: #93cc93 !important;
+    color: #39E500 !important;
 }
 
 select {
