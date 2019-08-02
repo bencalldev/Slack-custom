@@ -50,6 +50,10 @@ div.c-virtual_list__scroll_container {
     z-index: 0;
 }
 
+.c-scrollbar__bar {
+    background: rgba(255,255,255,0.45) !important;
+}
+
 .c-scrollbar__hider {
     background: #222222 !important;
 }
@@ -547,10 +551,10 @@ p-search_filter__date:first-child {
     background: none;
 }
 
-.c-message__body {
+/* .c-message__body {
     margin: 4px 0 -4px;
      !important
-}
+} */
 
 .p-file_list a {
     color: green !important;
