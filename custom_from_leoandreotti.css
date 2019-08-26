@@ -3240,7 +3240,7 @@ span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--ca
 div.p-message_pane__foreword__description span {
     color: white;
     font-size: 14.6px;
-    letter-spacing: -0.3px !important;
+    letter-spacing: -0.05px !important;
 }
 
 .p-workspace--classic-nav .p-workspace__primary_view_footer {
