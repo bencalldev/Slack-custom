@@ -3248,6 +3248,10 @@ div.p-message_pane__foreword__description span {
     background: #222222 !important;
 }
 
+.p-workspace__primary_view_footer {
+    background: #222222 !important;
+}
+
 .p-workspace__input .p-message_input_field {
     background: #474747;
     border-radius: 4px;
