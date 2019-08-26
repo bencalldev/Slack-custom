@@ -3819,5 +3819,5 @@ c-base_inline_entity__primary_content {
 }
 
 .p-channel_sidebar__channel--im .c-presence--active, .p-channel_sidebar__channel--im-slackbot:before {
-    color: #e50000; /* old = 39E500 */
+    color: #e50000 !important; /* old = 39E500 */
 }
