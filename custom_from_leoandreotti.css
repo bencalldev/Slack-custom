@@ -1,12 +1,13 @@
 /*Maintained by leoandreotti -> github.com/leoandreotti*/
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-/* body {
-    font-family: 'Muli', sans-serif !important;
-    text-rendering: optimizeLegibility important;
+body {
+    /* font-family: 'Muli', sans-serif !important; */
+    text-rendering: optimizeLegibility !important;
     word-spacing: -1px;
-    -webkit-font-smoothing: auto;
-} */
+    color: #FFF;
+    /* -webkit-font-smoothing: auto; */
+}
 
 /* .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor {
     font-family: 'Muli', sans-serif !important;
