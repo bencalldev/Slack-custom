@@ -46,6 +46,11 @@ div.c-virtual_list__scroll_container {
     color: #ffb088 !important;
 }
 
+.p-degraded_list__loading {
+    color: #FFF;
+    background: var(--background);
+}
+
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar),
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider {
     z-index: 0;
@@ -163,6 +168,15 @@ ts-message .mention {
     color: #2c2d30 !important;
     font-weight: 700;
     text-shadow: none;
+}
+
+.p-member_directory__member_row {
+    background-color: #222;
+    border-bottom: 1px solid #080808;
+}
+
+.p-member_directory__member_row:hover {
+    background-color: #3e3e3e;
 }
 
 .c-member_slug--link {
@@ -402,6 +416,10 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 #threads_msgs .inline_message_input_container.with_file_upload .inline_file_upload {
     background: #545454 !important;
     border: 0px !important;
+}
+
+.p-flexpane__body {
+    background-color: var(--background-elevated);
 }
 
 .p-flexpane_header {
