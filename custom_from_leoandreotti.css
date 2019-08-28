@@ -2238,7 +2238,7 @@ textarea {
 }
 
 .p-whats_new__date {
-    color: --text;
+    color: var(--text);
 }
 
 .indifferent_grey {
