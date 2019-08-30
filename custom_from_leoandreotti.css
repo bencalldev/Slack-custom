@@ -296,30 +296,30 @@ ts-message .mention {
 
 .c-search__input_and_close {
     background: #2b2c2e !important;
-    color white !important;
+    color: white !important;
 }
 
 .c-search__input_box {
     background: #2b2c2e !important;
-    color white !important;
+    color: white !important;
 }
 
 .c-search_autocomplete {
     background: #232323 !important;
-    color white !important;
+    color: white !important;
 }
 
 .c-search_autocomplete footer {
     background: #3B3B3B !important;
-    color white !important;
+    color: white !important;
 }
 
 .c-search_autocomplete__suggestion_text {
-    color white !important;
+    color: white !important;
 }
 
 .c-search_autocomplete__suggestion_content .c-search_autocomplete__suggestion_text {
-    color white !important;
+    color: white !important;
 }
 
 .c-search_autocomplete header {
@@ -563,7 +563,7 @@ p-search_filter__date:first-child {
 .p-channel_sidebar__section_heading_label--clickable:hover,
 .p-channel_sidebar__section_heading_label--unreads,
 .p-channel_sidebar__quickswitcher:hover {
-    color: white !importnat;
+    color: white !important;
 }
 
 .p-download_item__actions {
@@ -765,7 +765,7 @@ a:hover {
 }
 
 .p-file_list__empty {
-    background #222222 !important;
+    background: #222222 !important;
 }
 
 code {
@@ -1365,6 +1365,10 @@ a.c-message__sender_link {
     background: #323232;
 }
 
+.p-threads_view_empty {
+    background: #222 !important;
+}
+
 .p_threads_view_load_newer_button,
 .p_threads_view_load_older_button {
     height: 32px;
@@ -1443,7 +1447,7 @@ p {
 }
 
 textarea.c-input_textarea.c-input_textarea--with_hint {
-    color: white;
+    color: black;
 }
 
 .c-sidebar_menu__list li .c-link--button {
@@ -1573,8 +1577,7 @@ textarea.c-input_textarea.c-input_textarea--with_hint {
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected,
 .p-channel_sidebar__link--selected:hover {
-    background: #505050;
-     !important
+    background: #505050 !important;
 }
 
 .c-color_picker__container {
@@ -1752,11 +1755,12 @@ code {
 }
 
 .c-reaction__count {
-    color: white
+    color: white;
 }
 
 .c-reaction_add {
-    opacity: 1 background:#656565;
+    opacity: 1;
+    background: #656565;
 }
 
 .c-reaction:hover {
@@ -2488,8 +2492,16 @@ c-keyboard_key {
     color: white !important;
 }
 
+.CodeMirror .CodeMirror-gutters {
+    background-color: #444446 !important;
+}
+
 .CodeMirror .CodeMirror-linenumber {
     color: #ffffff;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #FFF;
 }
 
 .lazy_filter_select.single .lfs_input_container:after {
@@ -2606,7 +2618,8 @@ c-keyboard_key {
 
 #msg_form .ql-editor,
 #msg_form .ql-placeholder {
-    opacity: 0.4, color:white
+    opacity: 0.4;
+    color: white;
 }
 
 .supports_custom_scrollbar .texty_legacy .ql-editor,
@@ -2806,6 +2819,10 @@ hr {
     color: #ffffff;
 }
 
+.c-dialog_speed_bump {
+    background-color: #080808 !important;
+}
+
 .c-alert--inline,
 .c-alert--nested_box {
     color: #e7e7e7;
@@ -2977,8 +2994,7 @@ ts-message .reply_bar:hover {
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected,
 .p-channel_sidebar__link--selected:hover {
-    background: #343434;
-     !important
+    background: #343434 !important;
 }
 
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name,
@@ -3266,6 +3282,10 @@ div.p-message_pane__foreword__description span {
     letter-spacing: -0.05px !important;
 }
 
+.p-workspace__primary_view_body {
+    background: #222 !important;
+}
+
 .p-workspace--classic-nav .p-workspace__primary_view_footer {
     background: #222222 !important;
 }
@@ -3300,6 +3320,10 @@ footer.workspace__primary_view_footer {
 
 .c-texty_autocomplete__help {
     background: #222222;
+}
+
+.c-texty_autocomplete--commands .c-texty_autocomplete__group {
+    background: #080808 !important;
 }
 
 .p-classic_nav__drag {
@@ -3483,7 +3507,7 @@ p-search_filter__from_name,
 
 .p-flexpane__body--empty {
     align-items: center;
-    background-color: #141414 . !important;
+    background-color: #141414 !important;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -3843,4 +3867,28 @@ c-base_inline_entity__primary_content {
 
 .p-channel_sidebar__channel--im .c-presence--active, .p-channel_sidebar__channel--im-slackbot:before {
     color: #e50000 !important; /* old = 39E500 */
+}
+
+.p-docs_header {
+    background: #222;
+}
+
+.meta-info-text {
+    color:
+}
+
+.c-sk-modal_header {
+    background-color: #222;
+}
+
+.c-sk-modal_footer {
+    background-color: #222;
+}
+
+.p-trouble_loading {
+    background: #222 !important;
+}
+
+.p-trouble_loading_overlay {
+    background: #222 !important;
 }
