@@ -2477,12 +2477,12 @@ c-keyboard_key {
     color: #ffffff;
 }
 
-.CodeMirror-scroll {
+/* .CodeMirror-scroll {
     background: black;
     color: white;
-}
+} */
 
-.CodeMirror-gutter {
+/* .CodeMirror-gutter {
     white-space: normal;
     height: 100%;
     display: inline-block;
@@ -2490,19 +2490,19 @@ c-keyboard_key {
     margin-bottom: -30px;
     background: #444446 !important;
     color: white !important;
-}
+} */
 
-.CodeMirror .CodeMirror-gutters {
+/* .CodeMirror .CodeMirror-gutters {
     background-color: #444446 !important;
-}
+} */
 
-.CodeMirror .CodeMirror-linenumber {
+/* .CodeMirror .CodeMirror-linenumber {
     color: #ffffff !important;
-}
+} */
 
-.CodeMirror-cursor {
+/* .CodeMirror-cursor {
     border-left: 1px solid #FFF;
-}
+} */
 
 .lazy_filter_select.single .lfs_input_container:after {
 
@@ -2542,22 +2542,22 @@ c-keyboard_key {
     color: #ffffff !important;
 }
 
-.CodeMirror {
+/* .CodeMirror {
     position: relative;
     overflow: hidden;
     background: #000;
-}
+} */
 
-.c-pillow_file__snippet__content .CodeMirror {
+/* .c-pillow_file__snippet__content .CodeMirror {
     height: auto;
     border: none;
     color: #ffffff !important;
-}
+} */
 
-.c-pillow_file__snippet__content .CodeMirror-code>div:before {
+/* .c-pillow_file__snippet__content .CodeMirror-code>div:before {
 
     color: rgb(255, 101, 101) !important;
-}
+} */
 
 .p-channel_sidebar__section_heading_label--clickable:hover {
     background: transparent
