@@ -2488,7 +2488,7 @@ c-keyboard_key {
     display: inline-block;
     vertical-align: top;
     margin-bottom: -30px;
-    background: #444446;
+    background: #444446 !important;
     color: white !important;
 }
 
@@ -2497,7 +2497,7 @@ c-keyboard_key {
 }
 
 .CodeMirror .CodeMirror-linenumber {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 .CodeMirror-cursor {
@@ -2551,12 +2551,12 @@ c-keyboard_key {
 .c-pillow_file__snippet__content .CodeMirror {
     height: auto;
     border: none;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 .c-pillow_file__snippet__content .CodeMirror-code>div:before {
 
-    color: rgb(255, 101, 101);
+    color: rgb(255, 101, 101) !important;
 }
 
 .p-channel_sidebar__section_heading_label--clickable:hover {
