@@ -3892,3 +3892,9 @@ c-base_inline_entity__primary_content {
 .p-trouble_loading_overlay {
     background: #222 !important;
 }
+
+/* Custom css BoldPositron */
+.c-texty_input.c-texty_input--sticky_composer.focus .ql-buttons,
+.c-texty_input.c-texty_input--sticky_composer.focus .ql-composer-sticky {
+    background: #474747 !important;
+}
