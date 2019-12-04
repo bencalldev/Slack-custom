@@ -1,3 +1,5 @@
+/!\ If you have the newest version of Slack (4.2), you do not need to use this methods. Go to Preferences => Themes ;) /!\
+
 # Slack Black Theme
 
 A darker, more contrasty, Slack theme.
